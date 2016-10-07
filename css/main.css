@@ -15,6 +15,18 @@ body {
 	height: 600px;
 }
 
+.videoHead {
+	width: 50%;
+	height: 300px;
+	background-color: tan;
+}
+
+#player {
+	height: 90%;
+	width: 95%;
+	margin:15px;
+}
+
 .box {
 	background-color: blue;
 	height: 600px;
@@ -26,5 +38,5 @@ body {
 }
 .box3 {
 	background-color: red;
-	height: 600px;
+	height: 400px;
 }
