@@ -1,0 +1,30 @@
+body {
+
+	background: black;
+}
+
+#body1 {
+	background-color: teal;
+}
+
+#body2 {
+	background-color: green;
+}
+
+.boxhead {
+	height: 600px;
+}
+
+.box {
+	background-color: blue;
+	height: 600px;
+}
+
+.box2 {
+	background-color: white;
+	height: 600px;
+}
+.box3 {
+	background-color: red;
+	height: 600px;
+}
