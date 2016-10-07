@@ -1,6 +1,6 @@
 body {
 
-	background: black;
+	background-repeat: ;
 }
 
 #body1 {
@@ -15,10 +15,15 @@ body {
 	height: 600px;
 }
 
-.videoHead {
+.container .row .videoHead {
 	width: 50%;
-	height: 300px;
+	height: 329px;
 	background-color: tan;
+}
+
+.captionHead {
+	text-align: center;
+	color: orange;
 }
 
 #player {
@@ -39,4 +44,19 @@ body {
 .box3 {
 	background-color: red;
 	height: 400px;
+}
+
+.nav-pills {
+	text-align: center;
+	padding-top: 1%;
+	padding-left: 3%;
+	font:arial;
+	font-size: 21px;
+
+}
+
+.pill {
+	background-color: none;
+	width: 11.9%;
+	border-radius: 10%;
 }
