@@ -60,3 +60,24 @@ body {
 	width: 11.9%;
 	border-radius: 10%;
 }
+
+.body1Img {
+	width: 80%;
+
+}
+
+.bodCenter {
+	text-align: center;
+}
+
+.thumbBody {
+	max-width: 155%;
+	padding-top: 60px;
+}
+
+.thumbBody2 {
+	max-width: 155%;
+	padding-top: 60px;
+	margin-left: -55%;
+	height: 254px;
+}

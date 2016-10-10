@@ -11,7 +11,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- main custom css -->
 <link rel="stylesheet" type="text/css" href="css\main.css">
+<link rel="stylesheet" type="text/css" href="lightbox\lightbox.js">
 	<title></title>
+
+	<!-- lightbox intergration-->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body background="">
 <!-- create 4 divs that house the content 1 head 2 body 1 footer. This will be mobile responsive with content centering -->
@@ -54,7 +58,21 @@
 
 <div class="box">
 	<div class="container" id="body1">
-	<p>test</p>
+		<div class="row">
+			<div class="col-md-2">
+				<img class="thumbBody" src="images\1.jpg">
+				<img class="thumbBody" src="images\2.jpg">
+			</div>
+			<div class="col-md-8">
+				<div class="bodCenter">
+					<img class="body1Img" src="images\trump.jpg">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<img class="thumbBody2" src="images\3.jpg">
+				<img class="thumbBody2" src="images\4.jpg">
+			</div>
+		</div>
 	</div>
 </div>
 <div class="box2">
