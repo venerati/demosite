@@ -11,9 +11,9 @@ body {
 }
 
 #boxhead {
-	background-image: url(../images/back.gif) !important; 
-
-	height: 600px;
+	/*background-image: url(../images/back.gif) !important;*/
+	background-color: #efefef;
+	height: 80px;
 }
 
 .container .row .videoHead {
@@ -35,11 +35,12 @@ body {
 
 .trumpHead {
 	text-align: center;
+	box-shadow: 5px 5px 5px #999999;
 }
 
 .box {
 
-	background-color: #9edde9;
+	background-color: #caebf2;
 	height: 600px;
 
 }
@@ -53,19 +54,21 @@ body {
 	height: 400px;
 }
 
-.nav-pills {
-	text-align: center;
+.nav-pil {
 	padding-top: 1%;
 	padding-left: 3%;
+	margin-left: 20px;
 	font:arial;
 	font-size: 21px;
 
+
 }
 
-.pill {
-	background-color: none;
-	width: 11.9%;
+.pil {
+	background-color: #caebf2;
 	border-radius: 10%;
+	box-shadow: 5px 5px 5px #999999;
+	margin-left: 10px;
 }
 
 .body1Img {
