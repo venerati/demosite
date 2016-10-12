@@ -6,11 +6,10 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- main custom css -->
 <link rel="stylesheet" type="text/css" href="css\main.css">
+<!-- video background css-->
+<link rel="stylesheet" type="text/css" href="css\video.css">
 	<title></title>
 
 </head>
@@ -24,15 +23,23 @@
 <div id="boxhead">
 	<div class="container">
 		<div class="row">
-		<!-- need to create a JS injection so header will work on every page -->
-			<ul class="nav navbar-nav navbar-right nav-pil">
+		<div class="col-md-2">
+			<img class="logoT" src="https://pbs.twimg.com/profile_images/754540663450939392/3XsMSW0D_normal.jpg">
+		</div>
+		<div class="col-md-10">
+				<!-- need to create a JS injection so header will work on every page -->
+				<ul class="nav navbar-nav navbar-right nav-pil">
         		<li class="pil"><a href="#">Trump</a></li>
-        		<li class="pil"><a href="#">Trump</a></li>
-        		<li class="pil"><a href="#">Trump</a></li>
+        		<li class="pil"><a href="#">Hillary</a></li>
+        		<li class="pil"><a href="#">About</a></li>
     		</ul>
+		</div>
 		</div>
 	</div>
 </div>
+	<div class="tv">
+		  <div class="screen mute" id="tv"></div>
+	</div>
 
 <div class="box">
 	<div class="container" id="body1">
@@ -73,6 +80,10 @@
   src="http://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <!-- Video background JS -->
+<link rel="stylesheet" type="text/css" href="js\videobackground.js">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 </html>
