@@ -10,10 +10,22 @@ body {
 	background-color: green;
 }
 
-#boxhead {
+.boxhead {
 	/*background-image: url(../images/back.gif) !important;*/
 	background-color: #efefef;
+	height: 480px;
+	box-shadow: 5px 5px 5px #999999;
+}
+
+.header1 {
+	background-color: #ffd451 !important;
 	height: 80px;
+	-webkit-box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
+    box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
+    margin-bottom: 0px !important;
+    border:none !important;
+    background-image: none !important;
 }
 
 .container .row .videoHead {
@@ -37,15 +49,18 @@ body {
 	margin-top: 10px;
 }
 
-.trumpHead {
+.trumpLogo {
 	text-align: center;
 	box-shadow: 5px 5px 5px #999999;
+	margin-top: 60px;
+	width: 100%
 }
 
 .box {
 
 	background-color: #caebf2;
-	height: 600px;
+	height: 700px;
+	box-shadow: 5px 5px 5pc;
 
 }
 
@@ -58,15 +73,6 @@ body {
 	height: 400px;
 }
 
-.nav-pil {
-	padding-top: 1%;
-	padding-left: 3%;
-	margin-left: 20px;
-	font:arial;
-	font-size: 21px;
-
-
-}
 
 .pil {
 	background-color: #caebf2;
@@ -77,7 +83,7 @@ body {
 
 .body1Img {
 	width: 80%;
-	margin-top:10px ;
+	margin-top:60px ;
 	margin-bottom: 10px;
 	max-height: 580px;
 	border: 3px #ffd451 solid;
@@ -90,14 +96,14 @@ body {
 
 .thumbBody {
 	max-width: 155%;
-	margin-top: 60px;
+	margin-top: 100px;
 	border: 3px #ffd451 solid;
 	box-shadow: 5px 5px 5px #999999;
 }
 
 .thumbBody2 {
 	max-width: 155%;
-	margin-top: 60px;
+	margin-top: 100px;
 	margin-left: -55%;
 	height: 196px;
 	border: 3px #ffd451 solid;
