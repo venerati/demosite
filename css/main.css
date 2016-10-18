@@ -20,9 +20,9 @@ body {
 .header1 {
 	background-color: #ffd451 !important;
 	height: 80px;
-	-webkit-box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
-    -moz-box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
-    box-shadow: 6px 20px 31px 3px rgba(0,0,0,0.41);
+	-webkit-box-shadow: 6px 9px 31px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 6px 9px 31px 3px rgba(0,0,0,0.41);
+    box-shadow: 6px 9px 31px 3px rgba(0,0,0,0.41);
     margin-bottom: 0px !important;
     border:none !important;
     background-image: none !important;
@@ -64,6 +64,10 @@ body {
 
 }
 
+.navbar-right {
+	margin-right: 20%;
+}
+
 .box2 {
 	background-color: white;
 	height: 600px;
@@ -73,12 +77,17 @@ body {
 	height: 400px;
 }
 
+.navbar-right {
+	float:right;
+}
+
 
 .pil {
 	background-color: #caebf2;
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #999999;
 	margin-left: 10px;
+	margin-top: 11px;
 }
 
 .body1Img {
